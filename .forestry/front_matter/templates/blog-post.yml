@@ -1,4 +1,26 @@
 ---
 label: Blog Post
 hide_body: false
-fields: []
+fields:
+- name: pic
+  type: file
+  config:
+    maxSize: 64
+  label: Pic
+  description: pic
+- name: text
+  type: text
+  config:
+    required: false
+  label: text
+  description: text
+- name: para
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: para
+  description: paragraph
