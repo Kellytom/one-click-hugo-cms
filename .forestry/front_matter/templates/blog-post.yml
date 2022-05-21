@@ -24,3 +24,5 @@ fields:
       format: markdown
   label: para
   description: paragraph
+pages:
+- content/my pages/zero.md
